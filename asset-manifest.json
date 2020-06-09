@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/Landing_Page/static/js/main.f301dd0b.chunk.js",
+    "main.js.map": "/Landing_Page/static/js/main.f301dd0b.chunk.js.map",
+    "runtime-main.js": "/Landing_Page/static/js/runtime-main.34b6e246.js",
+    "runtime-main.js.map": "/Landing_Page/static/js/runtime-main.34b6e246.js.map",
+    "static/js/2.2277d66d.chunk.js": "/Landing_Page/static/js/2.2277d66d.chunk.js",
+    "static/js/2.2277d66d.chunk.js.map": "/Landing_Page/static/js/2.2277d66d.chunk.js.map",
+    "index.html": "/Landing_Page/index.html",
+    "precache-manifest.06e51ad86643fe3f56f4d5da4314f2a8.js": "/Landing_Page/precache-manifest.06e51ad86643fe3f56f4d5da4314f2a8.js",
+    "service-worker.js": "/Landing_Page/service-worker.js",
+    "static/js/2.2277d66d.chunk.js.LICENSE.txt": "/Landing_Page/static/js/2.2277d66d.chunk.js.LICENSE.txt",
+    "static/media/mentorship_plant.png": "/Landing_Page/static/media/mentorship_plant.441eb3a6.png",
+    "static/media/mtp.png": "/Landing_Page/static/media/mtp.7a277162.png",
+    "static/media/path.png": "/Landing_Page/static/media/path.61f15c3f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34b6e246.js",
+    "static/js/2.2277d66d.chunk.js",
+    "static/js/main.f301dd0b.chunk.js"
+  ]
+}
