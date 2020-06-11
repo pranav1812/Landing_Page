@@ -6,13 +6,15 @@ export class Value extends Component {
     render() {
         const style={
             paddingLeft:'3em',
-            width:'100%'
+            width:'100%',
+            
         }
         const cardGroup={
             display: 'flex',
-            
             flexDirection: 'horizontal',
-            paddingBottom:'3em'
+            flexWrap: 'wrap',
+            paddingBottom:'3em',
+            alignContent:'center'
         }
         return (
             <div style={style}>

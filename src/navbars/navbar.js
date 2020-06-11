@@ -12,27 +12,25 @@ import { Navbar, Nav } from 'react-bootstrap'
 // light
 
 export function navbar(background, variant) {
-    const list_style={
-        display: 'flex',
-        float:'left',
-        listStyle:'none',
-        marginTop: '1em',
-        marginLeft: '2em',
-        paddingLeft: '2em'
-    }
+    
     const linkstyle = {       
         color: '#A6ACAF',
         marginLeft: '2em',
         whiteSpace: 'nowrap', 
-        fontSize: '1em',        
+        fontSize: '1em'     
+    }
+    const collapseStyle={
+        backgroundColor:'#262831',
+        marginTop:'1.3em',
+        position:'relative'
     }
     return (               
         <div>       
-        <Navbar bg = { background } variant = { variant }  style = {{ position: 'fixed', height: '4.5em', width: '100%', display: 'flex'}} expand="lg" >      
+        <Navbar bg = { background } variant = { variant }  style = {{ position: 'fixed', height: '4.5em', backgroundColor:'#262831', width: '100%', display: 'flex'}} expand="lg" >      
         
         <Navbar.Brand href = "#home" > Tale of Ace </Navbar.Brand> 
         <Navbar.Toggle aria-controls="basic-navbar-nav" /> 
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse style={collapseStyle} id="basic-navbar-nav">
          
         <Nav className = "mr-auto" >
 
